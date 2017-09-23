@@ -1,0 +1,193 @@
+.pa_ui_dialog
+{
+	width: 600px;	
+}
+.pa_ui_dialog_titlebar
+{
+	background: url(../images/dialog.gif) repeat-x 0 -182px;
+	height: 27px;
+}
+.pa_ui_dialog_title
+{
+	background: url(../images/dialog.gif) repeat-x 0 -182px;
+	height: 27px;	
+	float: left;
+	line-height: 27px;
+	/*width:120px;*/
+	color:#fff;
+}
+.pa_ui_dialog_min .pa_ui_dialog_title
+{
+	background: url(../images/dialog.gif) repeat-x 0 -182px;
+	height: 27px;	
+	float: left;
+	line-height: 27px;
+	width:120px;
+	color:#fff;
+}
+.pa_ui_dialog_titlebar_button
+{
+	height: 27px;
+	float: right;		
+}
+.pa_ui_dialog_titlebar_button a
+{
+	margin-top:2px;
+}
+.pa_ui_dialog_title_left
+{
+	background: url(../images/dialog.gif) no-repeat 0 -155px;
+	width: 11px;
+	height: 27px;
+	float:left;
+	right:0px;
+}
+.pa_ui_dialog_title_right
+{
+	background: url(../images/dialog.gif) no-repeat 0 -128px;	
+	height: 27px;
+	width: 11px;
+	float: right;
+}
+.pa_ui_dialog_min .pa_ui_dialog_title_right
+{
+	background: url(../images/dialog.gif) no-repeat 0 -128px;	
+	height: 27px;
+	width: 11px;
+	float: right;
+}
+.pa_ui_dialog_titlebar_close, .pa_ui_dialog_titlebar_min, .pa_ui_dialog_titlebar_max
+{
+	float: left;
+	height: 16px;
+	display: block;
+	width: 26px;
+	margin: 0 1px;
+}
+.pa_ui_dialog_titlebar_close
+{
+	background: url(../images/dialog.gif) no-repeat 0 0px;
+}
+.pa_ui_dialog_titlebar_min
+{
+	background: url(../images/dialog.gif) no-repeat 0 -16px;
+}
+.pa_ui_dialog_titlebar_max
+{
+	background: url(../images/dialog.gif) no-repeat 0 -32px;
+}
+.pa_ui_dialog_titlebar_close:hover
+{
+	background: url(../images/dialog.gif) no-repeat 0 -64px;
+}
+.pa_ui_dialog_titlebar_min:hover
+{
+	background: url(../images/dialog.gif) no-repeat 0 -80px;
+}
+.pa_ui_dialog_titlebar_max:hover
+{
+	background: url(../images/dialog.gif) no-repeat 0 -96px;
+}
+.pa_ui_dialog_min .pa_ui_dialog_titlebar_min:hover
+{
+	background: url(../images/dialog.gif) no-repeat 0 -112px;
+}
+.pa_ui_dialog_content
+{	
+	background-color: #EBEEF7;
+}
+
+.pa_ui_dialog_content .pa_ui_dialog_content_left
+{
+	background: url(../images/tabsvertical.gif) repeat-y 0 0;
+	float: left;
+	position: relative;
+	width: 12px;
+	height: 100%;
+	z-index:0;
+}
+
+.pa_ui_dialog_content .pa_ui_dialog_content_content
+{
+	float: left;
+}
+
+.pa_ui_dialog_content .pa_ui_dialog_content_right
+{
+	background: url(../images/tabsvertical.gif) repeat-y -12px 0px;
+	display: inline;
+	float: right;
+	height: 100%;
+	position: relative;
+	width: 11px;
+}
+.pa_ui_dialog_contenttext
+{
+	background-color: #EBEEF7;
+	padding: 5px;
+}
+.pa_ui_dialog_content p
+{
+	background: #EBEEF7;
+	padding: 8px;
+}
+
+.pa_ui_dialog_footer
+{
+	height: 17px;
+	line-height: 17px;
+	background: url(../images/tabshorizontal.gif) repeat-x 0 -7px;
+}
+
+.pa_ui_dialog_footer .pa_ui_dialog_footer_left
+{
+	background: url(../images/tabscorner.gif) no-repeat 0 -14px;
+	float: left;
+	height: 17px;
+	position: relative;
+	width: 12px;
+}
+
+.pa_ui_dialog_footer .pa_ui_dialog_footer_right
+{
+	background: url(../images/tabscorner.gif) no-repeat 0 -32px;
+	display: inline;
+	float: right;
+	height: 17px;
+	position: relative;
+	width: 11px;
+}
+
+
+.pa_ui_dialog_min
+{
+	width: 300px;
+}
+.pa_ui_dialog_min .pa_ui_dialog_titlebar_min
+{
+	background: url(../images/dialog.gif) no-repeat 0 -48px;
+}
+.pa_ui_dialog_max
+{
+	width: 100%;
+	height: 100%;
+}
+.pa_ui_dialog_max .pa_ui_dialog_titlebar_max
+{
+	background: url(../images/dialog.gif) no-repeat 0 -48px;
+}
+.pa_ui_dialog_max .pa_ui_dialog_titlebar_max:hover
+{
+	background: url(../images/dialog.gif) no-repeat 0 -112px;
+}
+.pa_ui_dialog_overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=40);
+	background-color: #333;
+	opacity: .4;
+}

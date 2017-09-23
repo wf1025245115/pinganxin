@@ -1,0 +1,312 @@
+﻿/*日期选择器样式 图片居中,input宽度*/
+img.trigger
+{
+	vertical-align: middle;
+	cursor:pointer;	
+}
+input.datepicker
+{
+	width:80px !important;
+}
+input.datepicker_time
+{
+	width:120px !important;
+}
+.calendar
+{
+	position: relative;
+	display: none;
+	border-top: 2px solid #FFFFFF;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #FFFFFF;
+	font-size: 12px;
+	color: #000000;
+	cursor: default;
+	background: #FFDDD1;
+	font-family: "宋体" , "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+.calendar table
+{
+	border-top: 1px solid #000000;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #000000;
+	font-size: 12px;
+	color: #000000;
+	cursor: default;
+	background: #F5F5F5;
+	font-family: "宋体" , "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+.calendar .button
+{
+	text-align: center;
+	padding: 1px;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #FFFFFF;
+}
+
+.calendar .nav
+{
+	background: transparent url(../images/menuarrow.gif) no-repeat 100% 100%;
+}
+
+.calendar thead .title
+{
+	font-weight: bold;
+	padding: 1px;
+	border: 1px solid #000000;
+	background: #FFDDD1;
+	color: #CC0000;
+	text-align: center;
+}
+
+.calendar thead .headrow
+{
+}
+
+.calendar thead .daynames
+{
+}
+
+.calendar thead .name
+{
+	border-bottom: 1px solid #000000;
+	padding: 2px;
+	text-align: center;
+	background: #CCCCCC;
+}
+
+.calendar thead .weekend
+{
+	color: #F00000;
+}
+
+
+
+.calendar thead .active
+{
+	padding: 2px 0px 0px 2px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-left: 1px solid #000000;
+	background-color: #CCCCCC;
+}
+
+
+.calendar tbody .day
+{
+	width: 2em;
+	text-align: right;
+	padding: 2px 4px 2px 2px;
+}
+/*
+.calendar tbody .day.othermonth {
+  font-size: 80%;
+  color: #333333;
+}
+.calendar tbody .day.othermonth.oweekend {
+  color: #faa;
+}
+*/
+.calendar table .wn
+{
+	padding: 2px 3px 2px 2px;
+	border-right: 1px solid #000000;
+	background: #FFFFFF;
+}
+
+.calendar tbody .rowhilite td
+{
+	background: #E7E7E7;
+}
+
+.calendar tbody .rowhilite td.wn
+{
+	background: #EFEFEF;
+}
+
+
+
+.calendar tbody td.active
+{
+	padding: 2px 2px 0px 2px;
+	border: 1px solid;
+	border-color: #000000 #ffffff #ffffff #000000;
+}
+
+.calendar tbody td.selected
+{
+	font-weight: bold;
+	padding: 2px 2px 0px 2px;
+	border: 1px solid;
+	border-color: #000000 #ffffff #ffffff #000000;
+	background: #CCCCCC;
+}
+
+.calendar tbody td.weekend
+{
+	color: #f00000;
+}
+
+.calendar tbody td.today
+{
+	font-weight: bold;
+	color: #0000F0;
+}
+
+.calendar tbody .disabled
+{
+	color: #999999;
+}
+
+.calendar tbody .emptycell
+{
+	visibility: hidden;
+}
+
+.calendar tbody .emptyrow
+{
+	display: none;
+}
+
+.calendar tfoot .footrow
+{
+}
+
+.calendar tfoot .ttip
+{
+	padding: 1px;
+	border: 1px solid #000000;
+	background: #788084;
+	color: #ffffff;
+	text-align: center;
+}
+.calendar tfoot .active
+{
+	padding: 2px 0px 0px 2px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-left: 1px solid #000000;
+}
+
+.calendar .combo
+{
+	position: absolute;
+	display: none;
+	width: 4em;
+	top: 0px;
+	left: 0px;
+	cursor: default;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #ffffff;
+	background: #E0E0E0;
+	font-size: 12px;
+	padding: 1px;
+	z-index: 100;
+}
+
+.calendar .combo .label, .calendar .combo .label-IEfix
+{
+	text-align: center;
+	padding: 1px;
+}
+
+.calendar .combo .label-IEfix
+{
+	width: 4em;
+}
+
+.calendar .combo .active
+{
+	background: #cccccc;
+	padding: 0px;
+	border-top: 1px solid #000000;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-left: 1px solid #000000;
+}
+
+
+
+.calendar td.time
+{
+	border-top: 1px solid #000;
+	padding: 1px 0px;
+	text-align: center;
+	background-color: #E1E1E1;
+}
+
+.calendar td.time .hour, .calendar td.time .minute, .calendar td.time .ampm
+{
+	padding: 0px 3px 0px 4px;
+	border: 1px solid #666666;
+	font-weight: bold;
+	background-color: #ffffff;
+}
+
+.calendar td.time .ampm
+{
+	text-align: center;
+}
+
+.calendar td.time .colon
+{
+	padding: 0px 2px 0px 3px;
+	font-weight: bold;
+}
+
+
+.calendar td.time span.active
+{
+	border-color: #f00000;
+	background-color: #000000;
+	color: #00FF00;
+}
+
+
+.calendar td.time span.hilite
+{
+	border-color: #000000;
+	background-color: #666666;
+	color: #ffffff;
+}
+
+
+
+.calendar tfoot .hilite
+{
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #ffffff;
+	padding: 1px;
+	background: #cccccc;
+}
+
+.calendar thead .hilite
+{
+	border:  solid 1px #FFFFFF;	
+	padding: 0px;
+	background-color: #D7D7D7;
+}
+
+.calendar tbody td.hilite
+{
+	background-color: #D7D7D7;
+}
+
+.calendar .combo .hilite
+{
+	background: #666666;
+	color: #FFFFFF;
+}
